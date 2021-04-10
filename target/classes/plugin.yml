@@ -1,0 +1,12 @@
+main: io.github.anishthewizard.hardcoreminecraft.Main
+name: HardCoreMinecraft
+version: 0.1
+api-version: 1.16
+
+
+commands:
+  starthc:
+    description: start hardcore mode
+
+  stophc:
+    description: stop hardcore mode
