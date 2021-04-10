@@ -17,8 +17,10 @@ public class HardcoreMinecraft {
     }
 
     public void switchWorld(Player p) {
-        ConsoleCommandSender console = Bukkit.getConsoleSender();
-        Bukkit.dispatchCommand(console, "mvcreate world" + Constants.worldNumber + " normal");
+        //ConsoleCommandSender console = Bukkit.getConsoleSender();
+        //Bukkit.dispatchCommand(console, "mvcreate world" + Constants.worldNumber + " normal");
+
+        p.performCommand("mvcreate world" + Constants.worldNumber + " normal");
 
         p.performCommand("mvtp world" + Constants.worldNumber);
 
